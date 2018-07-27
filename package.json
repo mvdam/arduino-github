@@ -1,0 +1,20 @@
+{
+  "name": "github-arduino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "johnny-five": "^0.15.0",
+    "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "reveal-md": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node ./js/servo",
+    "reveal": "./node_modules/reveal-md/bin/cli.js ./slides/arduino-brownbag.md -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
